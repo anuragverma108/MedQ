@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Appointment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #42636A;">
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="index.html">
+      <div class="logo">MedQ</div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="department.html">Departments</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="medical history.html">Medical History</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+  <!-- Book Appointment Section -->
+  <section id="book-appointment" class="appointment-section">
+    <h2>Book an Appointment</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+      </div>
+      <div class="form-group">
+        <label for="sex">Sex:</label>
+        <select id="sex" name="sex" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="aadhar">Aadhar Number:</label>
+        <input type="text" id="aadhar" name="aadhar" pattern="[0-9]{12}" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="department">Department:</label>
+        <select id="department" name="department" required>
+          <option value="urology">Urology</option>
+          <option value="nephrology">Nephrology</option>
+          <option value="cardiology">Cardiology</option>
+          <option value="ent">ENT (Ear, Nose & Throat)</option>
+          <option value="general-surgery">General Surgery</option>
+          <option value="nutrition-dietetics">Nutrition & Dietetics</option>
+          <option value="orthopedics">Orthopedics</option>
+          <option value="oncology">Oncology</option>
+          <option value="sexual-health">Sexual Health</option>
+          <option value="renal-health">Renal Health</option>
+          <option value="neurology">Neurology</option>
+          <option value="hematology">Hematology</option>
+        </select>
+      </div>
+
+      <!-- Add more department options as needed -->
+      </select>
+      </div>
+      <!-- Add other necessary fields for appointment booking -->
+
+      <div class="form-group">
+        <button type="submit">Book Appointment</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 MedQ. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
