@@ -19,15 +19,12 @@ MedQ is a web application designed to serve as your medical assistant, providing
 
 ## Screenshots
 
-Include some screenshots or gifs showcasing your website's main features.
+ Some screenshots or gifs showcasing our website's main features.
+![Uploading Screenshot (165).png…]()
+![Screenshot (167)](https://github.com/amrit03b/MedQ/assets/129655645/09b2fca4-f44b-4b7e-a575-97b87f8f674e)
+![Screenshot (166)](https://github.com/amrit03b/MedQ/assets/129655645/82356075-bf99-4ef8-ba01-947e5ec46372)
 
-![Screenshot 1](![Uploading Screenshot (167).png…]()
-)
-![Screenshot 2](![Uploading Screenshot (165).png…]()
-)
-![Screenshot 3](![Uploading Screenshot (166).png…]()
 
-)
 
 ## Getting Started
 
