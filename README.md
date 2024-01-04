@@ -1,80 +1,42 @@
-# MedQ Website
+# MedQ - Your Personal Healthcare Assistant
 
-MedQ is a web application designed to serve as your medical assistant, providing hassle-free appointment booking and efficient management of medical history.
-
-## Table of Contents
-
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+## Overview
+MedQ is a comprehensive healthcare management system that simplifies the process of scheduling medical appointments, managing user-specific information through a dashboard, and maintaining a detailed medical history. Additionally, the system provides a unique feature to predict diseases based on symptoms and helps users find nearby doctors.
 
 ## Features
+1. **Appointment Booking:**
+   - Easily schedule appointments in various medical departments.
+   - Streamlined process for quick and convenient booking.
 
-- **Appointment Booking:** Easily schedule appointments in various medical departments.
-- **User Dashboard:** Access and manage upcoming appointments and other user-specific information.
-- **Medical History:** View and upload medical documents for a comprehensive medical history.
-  **Predict Disease from Symptoms:** Predict disease from symptoms and find nearby doctors.
+2. **User Dashboard:**
+   - Access and manage upcoming appointments.
+   - View and update personal information.
+   - User-friendly interface for a seamless experience.
 
-## Screenshots
+3. **Medical History:**
+   - Upload and view medical documents for a comprehensive medical history.
+   - Maintain a digital record of past diagnoses, prescriptions, and treatments.
 
- Some screenshots or gifs showcasing our website's main features.
-![Uploading Screenshot (165).png…]()
-![Screenshot (167)](https://github.com/amrit03b/MedQ/assets/129655645/09b2fca4-f44b-4b7e-a575-97b87f8f674e)
-![Screenshot (166)](https://github.com/amrit03b/MedQ/assets/129655645/82356075-bf99-4ef8-ba01-947e5ec46372)
+4. **Predict Disease from Symptoms:**
+   - Utilize an intelligent system to predict potential diseases based on entered symptoms.
+   - Receive suggested actions and recommendations.
 
-
-
-## Getting Started
-
-These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
-
-1. **Clone the Repository:**
-
-    ```bash
-    git clone https://github.com/your-username/MedQ-Website.git
-    ```
-
-2. **Navigate to the Project Directory:**
-
-    ```bash
-    cd MedQ-Website
-    ```
-
-3. **Install Dependencies:**
-
-    ```bash
-    # If using npm
-    npm install
-
-    # If using yarn
-    yarn
-    ```
-
-4. **Run the Application:**
-
-    ```bash
-    # If using npm
-    npm start
-
-    # If using yarn
-    yarn start
-    ```
-
-5. **Open in Browser:**
-
-    Open your web browser and navigate to [http://localhost:3000](http://localhost:3000).
+5. **Find Nearby Doctors:**
+   - Locate nearby doctors based on your medical needs and preferences.
+   - Get information on their specialties, availability, and contact details.
 
 ## Usage
+To view the working website, go to [MedQ Website](https://amrit03b.github.io/MedQ/).
 
-Provide information on how to use the main features of your website. Include any necessary instructions or guidelines.
+## Build Information
+This project is built as part of Hack Hurricane 1.0.
 
 ## Contributing
-
-If you'd like to contribute to MedQ, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+We welcome contributions to improve MedQ. Please follow the guidelines in the contributing.md file.
 
 ## License
+This project is licensed under the [MIT License](LICENSE).
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Feel free to reach out if you have any questions or suggestions!
+
+Happy coding!
