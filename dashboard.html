@@ -8,46 +8,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="background-color: #42636A;">
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">
+            <div class="logo">MedQ</div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="department.html">Departments</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="medical history.html">Medical History</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Upcoming Appointments Section -->
+    <section id="upcoming-appointments" class="appointment-section">
+        <h2>Upcoming Appointments</h2>
+        <ul id="dataList"></ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 MedQ. All rights reserved.</p>
+    </footer>
+
+    <!-- Use an earlier version that does not use modules -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
 
 
-    <body style="background-color: #42636A;">
+    <script src="dashboard.js"></script>
 
-        <!-- Navigation Bar -->
-        <nav>
-            <a href="index.html">
-                <div class="logo">MedQ</div>
-            </a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="department.html">Departments</a></li>
-                <li><a href="dashboard.html">Dashboard</a></li>
-                <li><a href="medical history.html">Medical History</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
-        </nav>
-
-        <!-- User Dashboard Section -->
-        <section id="user-dashboard" class="user-dashboard">
-            <h2>Your Dashboard</h2>
-            <div class="upcoming-appointments">
-                <h3>Upcoming Appointments</h3>
-                <!-- Display upcoming appointments here -->
-                <ul>
-                    <li>Appointment 1 - Date and Time</li>
-                    <li>Appointment 2 - Date and Time</li>
-                    <!-- Add more list items as needed -->
-                </ul>
-            </div>
-
-        </section>
-
-        <!-- Footer -->
-        <footer>
-            <p>&copy; 2024 MedQ. All rights reserved.</p>
-        </footer>
-
-
-    </body>
+</body>
 
 </html>
