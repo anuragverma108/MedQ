@@ -295,3 +295,7 @@ p>a {
 #documentList a:hover {
   text-decoration: underline;
 }
+
+.homepage {
+  width: 90%;
+}
