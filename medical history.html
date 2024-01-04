@@ -4,24 +4,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PDF Upload</title>
+  <title>Medical History</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <h1>Upload PDFs</h1>
+<body style="background-color: #42636A;">
 
-  <input type="file" id="fileInput" accept=".pdf" />
-  <button onclick="uploadFile()">Upload</button>
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="index.html">
+      <div class="logo">MedQ</div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="department.html">Departments</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="medical history.html">Medical History</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
 
-  <h2>Uploaded Documents:</h2>
-  <ul id="documentList"></ul>
+  <!-- Upload Medical Documents Section -->
+  <section id="upload-documents" class="medical-history">
+    <h2>Upload Medical Documents</h2>
+    <form id="documentUploadForm" onsubmit="uploadFile(); return false;">
+      <div class="form-group">
+        <label for="fileInput">Choose File:</label>
+        <input type="file" id="fileInput" accept=".pdf" />
+      </div>
+      <div class="form-group">
+        <button type="submit">Upload Document</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Display Uploaded Documents Section -->
+  <section id="display-documents" class="medical-history">
+    <h2>Uploaded Documents</h2>
+    <ul id="documentList"></ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 MedQ. All rights reserved.</p>
+  </footer>
 
   <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-storage.js"></script>
-
-
   <script src="script_docu.js"></script>
+
 </body>
 
 </html>
