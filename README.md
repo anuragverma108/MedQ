@@ -16,6 +16,7 @@ MedQ is a web application designed to serve as your medical assistant, providing
 - **Appointment Booking:** Easily schedule appointments in various medical departments.
 - **User Dashboard:** Access and manage upcoming appointments and other user-specific information.
 - **Medical History:** View and upload medical documents for a comprehensive medical history.
+  **Predict Disease from Symptoms:** Predict disease from symptoms and find nearby doctors.
 
 ## Screenshots
 
